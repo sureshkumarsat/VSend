@@ -1,0 +1,36 @@
+Screen:
+    id: MainScreen
+    name: 'MainScreen'
+
+    BoxLayout:
+        orientation: 'vertical'
+        MDToolbar:
+            title: 'URL SHORTENER'
+            anchor_title: 'center'
+        ScrollView:
+
+    MDTextField:
+        id: long_link
+        mode: 'rectangle'
+        hint_text: 'Enter URL'
+        icon_right: 'link'
+        icon_right_color: app.theme_cls.primary_color
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5,"center_y": 0.6}
+
+    MDLabel:
+        id: short_url
+        text: '[ref=shortlink][/ref]'
+        markup: True
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5,"center_y": 0.4}
+        halign: 'center'
+        valign: 'center'
+        font_size: '20sp'
+        on_ref_press: app.copy_short_link()
+
+    MDRaisedButton:
+        text: 'CREATE SHORT URL'
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5,"center_y": 0.2}
+        on_release: app.create_short_URL()

@@ -1,0 +1,61 @@
+Screen:
+    id: MainScreen
+    name: 'MainScreen'
+
+    BoxLayout:
+        orientation: 'vertical'
+        MDToolbar:
+            title: 'YOUTUBE VIDEO DOWNLOADER'
+            anchor_title: 'center'
+        ScrollView:
+
+    MDTextField:
+        id: Link
+        size_hint_x: 0.9
+        mode: 'rectangle'
+        pos_hint: {"center_x": 0.5, "center_y": 0.7}
+        hint_text: "Enter Link"
+        icon_right: "youtube"
+        icon_right_color: app.theme_cls.primary_color
+        font_size: 24
+
+    MDTextField:
+        id: Path
+        on_focus: if self.focus: app.dd_menu.open()
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        hint_text: "Enter Path"
+        text: "Default"
+        mode: 'rectangle'
+        font_size: 24
+
+    MDIconButton:
+        icon: "folder-download"
+        icon_color: 'Blue'
+        pos_hint: {"center_x": 0.925, "center_y": 0.5}
+        on_press: app.Browse()
+        theme_text_color: 'Custom'
+        text_color: app.theme_cls.primary_color
+        font_size: 24
+
+    MDTextField:
+        id: FileName
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5, "center_y": 0.3}
+        hint_text: "Enter File Name"
+        icon_right: "file-video"
+        icon_right_color: app.theme_cls.primary_color
+        mode: 'rectangle'
+        font_size: 24
+
+    MDRaisedButton:
+        size_hint_x: 0.3
+        pos_hint: {"center_x": 0.348,"center_y": 0.1}
+        text: "DOWNLOAD VIDEO"
+        on_press: app.Download()
+
+    MDRaisedButton:
+        size_hint_x: 0.3
+        pos_hint: {"center_x": 0.662,"center_y": 0.1}
+        text: "DOWNLOAD AUDIO"
+        on_press: app.DownloadAudio()

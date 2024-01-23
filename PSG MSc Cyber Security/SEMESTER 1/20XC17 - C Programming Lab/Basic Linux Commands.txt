@@ -1,0 +1,13 @@
+ls - list of files and folders in directory
+
+pwd - present working directory
+
+nano and vim are the 2 editors
+
+mkdir - create directory
+
+rmdir - delete directory
+
+rm - remove file
+
+mv - change name of a file

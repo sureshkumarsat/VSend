@@ -1,0 +1,21 @@
+{
+    "All Files": "*",
+    "Applications": "exe",
+    "Microsoft Word": "docx",
+    "Microsoft PowerPoint": "pptx",
+    "Microsoft Excel": "xlsx",
+    "Comma Separated Values": "csv",
+    "HTML Files": "html",
+    "PDF Files": "pdf",
+    "Text Files": "txt",
+    "CSS Files": "css",
+    "JavaScript Files": "js",
+    "PHP Files": "php",
+    "Python Files": "py",
+    "Video Files": "mp4",
+    "Audio Files": "mp3",
+    "JSON Files": "json",
+    "Binary Files": "dat",
+    "JPEG Images": "jpeg",
+    "PNG Images": "png"
+}

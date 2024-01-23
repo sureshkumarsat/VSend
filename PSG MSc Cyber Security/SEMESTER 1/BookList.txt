@@ -1,0 +1,20 @@
+20XC11 - CALCULUS AND ITS APPLICATIONS
+	-> Thomas’ Calculus, Pearson Education, 2018
+	-> Advanced Engineering Mathematics, John Wiley, 2014
+
+20XC12 - ENGLISH FOR PROFESSIONAL SKILLS
+	-> English For Engineers
+
+20XC14 - DIGITAL SYSTEM DESIGN
+	-> Fundamentals of Logic Design, Cengage Learning, 2014 
+	-> Computer Architecture and Organization Designing for Performance, Pearson Education, 2014
+	-> Computer Organization and Design: The Hardware/Software Interface, Morgan Kaufmann, 2013
+	-> Computer Organization and Embedded Systems, McGraw-Hill, 2012
+	-> The Elements of Computing Systems – Building a Modern Computer from First Principles, The MIT Press, 2005
+
+20XC15 - PROBLEM SOLVING AND C PROGRAMMING
+	-> The C Programming Language, Pearson Education India, 2015
+	-> How to solve it by Computer, Pearson, 2008
+
+20XC16 - MATHEMATICAL FOUNDATIONS LAB
+	-> MATLAB An Introduction With Applications, Amos Gilat
